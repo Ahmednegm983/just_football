@@ -10,6 +10,7 @@ class news_list_view extends StatelessWidget {
 
   final List<ArticleModel> articles;
   news_list_view({super.key, required this.articles,});
+
   @override
   Widget build(BuildContext context) {
     var querywidth=MediaQuery.of(context).size.width;
